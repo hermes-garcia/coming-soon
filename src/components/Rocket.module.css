@@ -1,0 +1,113 @@
+.first {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    transform: rotate(-45deg);
+    animation: rocket-off 5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rocket-off {
+    0% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-45deg);
+    }
+
+    1% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-42deg);
+    }
+
+    2% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-49deg);
+    }
+
+    3% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-43deg);
+    }
+
+    4% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-47deg);
+    }
+
+    5% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-41deg);
+    }
+
+    6% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-46deg);
+    }
+
+    7% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-40deg);
+    }
+
+    8% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-48deg);
+    }
+
+    9% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-42deg);
+    }
+
+    10% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-47deg);
+    }
+
+    11% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-41deg);
+    }
+
+    12% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-46deg);
+    }
+
+    13% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-40deg);
+    }
+
+    14% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-48deg);
+    }
+
+    16% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-43deg);
+    }
+
+    17% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-46deg);
+    }
+
+    18% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-44deg);
+    }
+
+    19% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-45deg);
+    }
+
+    20% {
+        transform: translateY(var(--initial-rocket-height)) rotate(-45deg);
+    }
+
+    100% {
+        transform: translateY(-60svh) rotate(-45deg);
+    }
+}
+
+.second {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    transform: translateY(-60svh) rotate(-45deg);
+    animation: rocket-land 3s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+@keyframes rocket-land {
+    100% {
+        transform: translate(25svw,0);
+    }
+    0% {
+        transform: translate(-60svw,0) rotate(45deg);
+    }
+}
