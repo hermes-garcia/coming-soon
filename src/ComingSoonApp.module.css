@@ -1,0 +1,20 @@
+.wrapper {
+  background: #110f0f;
+  width: 100dvmax;
+  height: 100dvmin;
+}
+
+.twinkling, .clouds {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.twinkling {
+  background: transparent url('./assets/stars.png') repeat top center;
+}
+
+
