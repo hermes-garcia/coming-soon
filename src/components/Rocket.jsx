@@ -4,7 +4,7 @@ const Rocket = ({type = 'first'}) => {
   return (
     <img
       className={styles[type]}
-      src="./rocket2.png"
+      src="/src/components/rocket2.png"
       alt="Rocket in the space"
     />
   );
