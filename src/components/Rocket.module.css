@@ -105,7 +105,7 @@
 
 @keyframes rocket-land {
     100% {
-        transform: translate(25svw,0);
+        transform: translate(100px,0);
     }
     0% {
         transform: translate(-60svw,0) rotate(45deg);
