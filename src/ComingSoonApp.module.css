@@ -14,7 +14,7 @@
   right: 0;
   bottom: 0;
   z-index: 2;
-  background: transparent url('./assets/stars.png') repeat top center;
+  background: transparent url('./assets/stars.webp') repeat top center;
   animation: twinkle 3s infinite;
 }
 

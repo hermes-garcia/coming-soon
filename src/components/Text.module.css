@@ -11,6 +11,7 @@
 .text {
     position: absolute;
     font-size: 32px;
+    font-weight: 300;
     right: -68px;
     color: #fff;
     overflow: hidden;
