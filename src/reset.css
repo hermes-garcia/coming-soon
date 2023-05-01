@@ -14,12 +14,6 @@ body,
     height: 100%;
 }
 
-html {
-    --platform-height: 30svh;
-    --initial-rocket-height: calc(var(--platform-height) - 7px);
-    --final-rocket-height: 60svh;
-}
-
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;

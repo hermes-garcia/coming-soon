@@ -100,14 +100,13 @@
     transform: translateY(-60svh) rotate(-45deg);
     animation: rocket-land 3s ease-in-out;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
 }
 
 @keyframes rocket-land {
     100% {
-        transform: translate(100px,0);
+        transform: translate(100px, 0);
     }
     0% {
-        transform: translate(-60svw,0) rotate(45deg);
+        transform: translate(-60svw, 0) rotate(45deg);
     }
 }

@@ -1,0 +1,36 @@
+.restartWrapper {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 16px;
+    color: #fff;
+    z-index: 3;
+}
+
+.restartButton {
+    margin-left: auto;
+    background-color: #000;
+    opacity: 0;
+    animation: appears 5s ease;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+.restartIcon {
+    background: url('../../assets/restart_icon.svg') no-repeat;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+@keyframes appears {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

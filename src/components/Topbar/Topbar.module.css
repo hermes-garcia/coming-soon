@@ -1,0 +1,18 @@
+.topbar {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    padding: 16px;
+    z-index: 3;
+    position: fixed;
+}
+
+.twitterIcon {
+    background: url('../../assets/twitter_icon.svg') no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.twitterLink {
+    margin-left: auto;
+}

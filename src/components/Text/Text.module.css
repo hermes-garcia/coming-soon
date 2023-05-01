@@ -19,7 +19,7 @@
     white-space: nowrap;
     animation: appears 3s ease-out;
     animation-fill-mode: forwards;
-    animation-delay: 7.5s;
+    animation-delay: 2.5s;
 }
 
 .emailBtn {
@@ -36,7 +36,7 @@
     opacity: 0;
     animation: appears 5s ease;
     animation-fill-mode: forwards;
-    animation-delay: 8s;
+    animation-delay: 3s;
 }
 
 .emailBtn:hover {

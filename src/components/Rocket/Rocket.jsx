@@ -1,10 +1,10 @@
 import styles from './Rocket.module.css';
 
-const Rocket = ({type = 'first'}) => {
+const Rocket = ({ type = 'first' }) => {
   return (
     <img
       className={styles[type]}
-      src="./rocket.webp"
+      src="/rocket.webp"
       alt="Rocket in the space"
     />
   );
